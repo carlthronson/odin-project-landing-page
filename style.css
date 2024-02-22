@@ -1,13 +1,66 @@
+* {
+    outline: 2px solid blue;
+    margin: 8px;
+    /* padding: 8px; */
+    border: 8px;
+    border-color: aqua;
+    border-style: solid;
+}
+
 .section {
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 80px;
 }
 
 .header,
 .footer {
-    background-color: black;
+    background-color: darkgray;
     color: white;
 }
 
 .quote {
     background-color: lightgray;
+}
+
+.header-logo {
+    font-size: 32px;
+}
+
+.header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: orange;
+    color: red; */
+}
+
+.content {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.gallery .top {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
 }
